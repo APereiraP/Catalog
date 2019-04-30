@@ -6,8 +6,8 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@//localhost:1521/xe
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:localhost:1521/xe
     username: system
     password: oracle
 
