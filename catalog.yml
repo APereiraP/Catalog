@@ -14,6 +14,9 @@ spring:
 
   application:
     name: spring-cloud-eureka-client
+  autoconfigure:
+    exclude:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 server:
   port: 9999
 eureka:
